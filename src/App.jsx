@@ -8,6 +8,7 @@ function App() {
   return (
     <>
       <Navbar/>
+      <main></main>
       <Hero/>
       <Footer/>
     </>
