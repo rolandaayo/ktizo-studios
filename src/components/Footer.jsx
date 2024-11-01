@@ -3,32 +3,39 @@ import React from 'react'
 
 export default function Footer() {
   return (
-    <footer className="bg-gray-800 text-white py-8">
-      <div className="container mx-auto px-4">
-        <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
-          <div>
-            <h3 className="text-xl font-bold mb-4">About Us</h3>
-            <p className="text-gray-300">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-          </div>
-          <div>
-            <h3 className="text-xl font-bold mb-4">Quick Links</h3>
-            <ul className="space-y-2">
-              <li><a href="#" className="hover:text-gray-300">Home</a></li>
-              <li><a href="#" className="hover:text-gray-300">Services</a></li>
-              <li><a href="#" className="hover:text-gray-300">Contact</a></li>
+    <footer data-aos="zoom-in" data-aos-duration="1000" className="footer">
+      <div className="container">
+        <div className="row">
+          <div className="footer-col">
+            <h4>Quick Links</h4>
+            <ul>
+              <li><a href="home.html">Home</a></li>
+              <li><a href="about.html">About Us</a></li>
+              <li><a href="gallery.html">Gallery</a></li>
+              <li><a href="contact.html">Contact Us</a></li>
+              <li><a href="staffs.html">Staffs</a></li>
             </ul>
           </div>
-          <div>
-            <h3 className="text-xl font-bold mb-4">Contact Info</h3>
-            <ul className="space-y-2 text-gray-300">
-              <li>Email: info@example.com</li>
-              <li>Phone: (123) 456-7890</li>
-              <li>Address: 123 Street, City, Country</li>
+
+          <div className="footer-col">
+            <h4>Legal Links</h4>
+            <ul>
+              <li><a href="about.html">Terms & Conditions</a></li>
+              <li><a href="about.html">Privacy & Policy</a></li>
+              <li><a href="home.html">Ktizo Studios</a></li>
+              <li><a href="contact.html">Stillwaters garden estate, ikate Lagos, Nigeria</a></li>
             </ul>
           </div>
-        </div>
-        <div className="border-t border-gray-700 mt-8 pt-8 text-center">
-          <p className="text-gray-400">© 2024 rolandaayo. All rights reserved.</p>
+
+          <div className="footer-col">
+            <h4>Contact Us</h4>
+            <ul>
+              <li><a href="#">For bookings and enquiries with Ktizo Studios , please email:
+                tryphyb@gmail.com</a></li>
+              <li><a href="#">Call: +234 701 819 1679</a></li>
+              <li><a href="#">Open Mondays to Saturdays, 10am to 6pm</a></li>
+            </ul>
+          </div>
         </div>
       </div>
     </footer>
