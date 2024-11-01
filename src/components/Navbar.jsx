@@ -8,7 +8,7 @@ export default function Navbar() {
     <div className="bg-[#f7f2d5]">
 
       <section className="container mx-auto px-4">
-        <nav className="flex flex-col md:flex-row justify-between items-center py-4">
+        <nav className="flex flex-col md:flex-row justify-between items-center py-2">
           <div className="flex justify-between w-full md:w-auto items-center">
             <a
               className="w-32 md:w-40 transition-all duration-300 hover:scale-105"
@@ -65,56 +65,15 @@ export default function Navbar() {
               <li>
                 <a
                   className="hover:text-gray-600 transition-all duration-300 hover:scale-110 inline-block"
-                  href="gallery.html"
-                >
-                  GALLERY
-                </a>
-              </li>
-              <li>
-                <a
-                  className="hover:text-gray-600 transition-all duration-300 hover:scale-110 inline-block"
-                  href="contact.html"
+                  href="contact"
                 >
                   CONTACT US
-                </a>
-              </li>
-              <li>
-                <a
-                  className="hover:text-gray-600 transition-all duration-300 hover:scale-110 inline-block"
-                  href="gallery.html"
-                >
-                  STAFFS
-                </a>
-              </li>
-              <li>
-                <a
-                  className="hover:text-gray-600 transition-all duration-300 hover:scale-110 inline-block"
-                  href="gallery.html"
-                >
-                  MORE
                 </a>
               </li>
             </ul>
           </div>
         </nav>
-        <div className="flex-col text-center bg-[url('/images/IMG_3253.jpg')] bg-cover bg-center bg-no-repeat h-[40vh] md:h-[60vh] text-white items-center animate-fade-in">
-          <div className="text-white w-full h-full justify-center py-20 md:py-40 px-4">
-            <h1 className="text-2xl md:text-4xl mb-4 animate-slide-down">
-              Welcome to KTIZO STUDIOS
-            </h1>
-            <p className="text-sm md:text-base animate-slide-up">
-              Ktizo Studios is a specialist music production school and the
-              training ground <br className="hidden md:block" />
-              for the next generation of music producers and sound engineers.
-            </p>
-            <a className="inline-block mt-4 px-6 py-2 border border-white rounded hover:bg-white hover:text-black transition-all duration-300 hover:scale-105 animate-bounce">
-              Gallery
-            </a>
-          </div>
-        </div>
       </section>
-
-      
     </div>
   );
 }
