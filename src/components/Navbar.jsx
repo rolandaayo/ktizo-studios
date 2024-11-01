@@ -49,7 +49,7 @@ export default function Navbar() {
               <li>
                 <a
                   className="hover:text-gray-600 transition-all duration-300 hover:scale-110 inline-block"
-                  href="home.html"
+                  href="/"
                 >
                   HOME
                 </a>
@@ -57,7 +57,7 @@ export default function Navbar() {
               <li>
                 <a
                   className="hover:text-gray-600 transition-all duration-300 hover:scale-110 inline-block"
-                  href="about.html"
+                  href="about"
                 >
                   ABOUT US
                 </a>
