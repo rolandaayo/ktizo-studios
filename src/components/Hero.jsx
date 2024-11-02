@@ -97,6 +97,9 @@ export default function Hero() {
               areas of music.
             </h1>
             <p className="text-sm md:text-base">Luke Glazewski, Graduate 2019</p>
+            <a className="inline-block mt-4 px-6 py-2 border border-white rounded hover:bg-white hover:text-black transition-all duration-300 hover:scale-105 animate-bounce">
+            CONTACT US
+          </a>
           </div>
         </div>
       </div>
