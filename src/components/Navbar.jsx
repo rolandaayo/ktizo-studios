@@ -12,7 +12,7 @@ export default function Navbar() {
           <div className="flex justify-between w-full md:w-auto items-center">
             <a
               className="w-32 md:w-40 transition-all duration-300 hover:scale-105"
-              href="in.html"
+              href="/"
             >
               <img src="/images/KTIZO studio.png" alt="Logo" />
             </a>
