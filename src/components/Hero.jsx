@@ -44,7 +44,7 @@ export default function Hero() {
           </p>
         </div>
         <img
-          className="w-full h-[400px] sm:h-[500px] object-cover rounded-lg shadow-xl"
+          className="w-full h-[400px] sm:h-[500px] object-cover rounded-lg shadow-xl transform hover:scale-105 transition-transform duration-300"
           src="/images/DSC07907-Edit.jpg"
           alt="Studio equipment"
         />
@@ -52,7 +52,7 @@ export default function Hero() {
 
       <div className="container mx-auto grid grid-cols-1 md:grid-cols-2 gap-6 sm:gap-8 p-4 sm:p-16 md:p-24">
         <img
-          className="w-full h-[400px] sm:h-[500px] object-cover rounded-lg shadow-xl order-2 md:order-1"
+          className="w-full h-[400px] sm:h-[500px] object-cover rounded-lg shadow-xl order-2 md:order-1 transform hover:scale-105 transition-transform duration-300"
           src="/images/IMG_7955.jpg"
           alt="Studio performance"
         />
