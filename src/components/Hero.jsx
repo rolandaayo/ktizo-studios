@@ -81,10 +81,10 @@ export default function Hero() {
       <div className="relative bg-[url('/images/IMG_7927.jpg')] bg-cover bg-center bg-no-repeat h-[50vh] md:h-[60vh]">
         <div className="absolute inset-0 bg-black bg-opacity-40 flex items-center justify-center">
           <div className="text-white text-center px-4 max-w-4xl">
-            <h1 className="text-2xl md:text-3xl font-bold mb-6 leading-relaxed">
+            <h1 className="text-2xl md:text-3xl font-bold mb-6 leading-relaxed text-yellow-400">
               “I had an incredible experience. The staff have so much to offer and cover so many different areas of music.”
             </h1>
-            <p className="text-lg md:text-xl italic mb-8">Luke Glazewski, Graduate 2019</p>
+            <p className="text-lg md:text-xl italic mb-8 text-blue-300">Luke Glazewski, Graduate 2019</p>
             <a href='/contact' className="inline-block px-8 py-3 border-2 border-white rounded-full text-lg font-semibold hover:bg-white hover:text-black transition-all duration-300 hover:scale-105">
               CONTACT US
             </a>
