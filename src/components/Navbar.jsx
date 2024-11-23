@@ -5,7 +5,7 @@ export default function Navbar() {
   const [isOpen, setIsOpen] = useState(false);
 
   return (
-    <div className="bg-[#f7f2d5]">
+    <div className="bg-[#f7f2d5] sticky top-0 z-10">
 
       <section className="container mx-auto px-4">
         <nav className="flex flex-col md:flex-row justify-between items-center py-2">
