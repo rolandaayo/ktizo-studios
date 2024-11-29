@@ -1,9 +1,9 @@
 <div align="center">
   <h2 align="center">Ktizo Studios - Music Production Website</h2>
 
-  Ktizo Studio is a fully responsive music production website, <br />Responsive for all devices, built using HTML, CSS, and JavaScript.
+  Ktizo Studio is a fully responsive music production website, Responsive for all devices, built using HTML, CSS, and JavaScript.
 
-  <a href="https://rolandaayo.github.io/micro-podcast/"><strong>➥ Live Demo</strong></a>
+  <a href="https://rolandaayo.github.io/ktizo-studios/"><strong>➥ Live Demo</strong></a>
 
 </div>
 
