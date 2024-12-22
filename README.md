@@ -1,9 +1,9 @@
 <div align="center">
-  <h2 align="center">React Landing Page - Demo E-commerce</h2>
+  <h2 align="center">Ktizo Studios</h2>
 
-  Demo E-commerce is a fully responsive demo ecommerce website, Responsive for all devices. <br/> Built using React.js and Tailwind CSS.
+  Ktizo Studios is a fully functional music production website, Responsive for all devices. <br/> Built using React.js and Tailwind CSS.
 
-  <a href="https://react-landing--page.vercel.app/"><strong>➥ Live Demo</strong></a>
+  <a href="https://ktizo-studios.vercel.app/"><strong>➥ Live Demo</strong></a>
 
 </div>
 
@@ -19,20 +19,20 @@ Before you begin, ensure you have met the following requirements:
 
 * [Git](https://git-scm.com/downloads "Download Git") must be installed on your operating system.
 
-### Installing React Landing Page
+### Installing Ktizo Studios
 
-To install **React Landing Page**, run this command on your git bash:
+To install **Ktizo Studios**, run this command on your git bash:
 
 Linux and macOS:
 
 ```bash
-sudo git clone https://github.com/rolandaayo/react-landing-page.git
+sudo git clone https://github.com/rolandaayo/ktizo-studios.git
 ```
 
 Windows:
 
 ```bash
-git clone https://github.com/rolandaayo/react-landing-page.git
+git clone https://github.com/rolandaayo/ktizo-studios.git
 ```
 
 ## 💬 Contact
