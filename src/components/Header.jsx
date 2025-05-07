@@ -8,7 +8,7 @@ export default function Header() {
         <div className="absolute inset-0 bg-black bg-opacity-40"></div>
         <div className="relative text-white w-full h-full flex flex-col justify-center py-12 sm:py-16 md:py-40 px-3 sm:px-4">
           <h1 className="text-xl sm:text-2xl md:text-4xl font-bold mb-3 sm:mb-4 animate-slide-down text-[#ffcc00]">
-            Welcome to KTIZO STUDIOS
+            Welcome to KTIZO STUDIOS 🎸
           </h1>
           <p className="text-xs sm:text-sm md:text-base max-w-3xl mx-auto leading-relaxed animate-slide-up text-[#ff6699]">
             Ktizo Studios is a specialist music production school and the
